@@ -1,0 +1,16 @@
+PODS:
+  - XVIEWWeChatManager (0.1.0)
+
+DEPENDENCIES:
+  - XVIEWWeChatManager (from `../`)
+
+EXTERNAL SOURCES:
+  XVIEWWeChatManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XVIEWWeChatManager: 584d0f22f4fc08167ed9c5de0a72897d8db9597c
+
+PODFILE CHECKSUM: 978c58cbede010701516db9d98456c82efcd5b33
+
+COCOAPODS: 1.5.3

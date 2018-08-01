@@ -1,0 +1,22 @@
+{
+  "name": "XVIEWWeChatManager",
+  "version": "0.1.0",
+  "summary": "A short description of XVIEWWeChatManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/maomao520benben/XVIEWWeChatManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "maomao520benben": "key@xiaheng.net"
+  },
+  "source": {
+    "git": "https://github.com/maomao520benben/XVIEWWeChatManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XVIEWWeChatManager/Classes/**/*"
+}

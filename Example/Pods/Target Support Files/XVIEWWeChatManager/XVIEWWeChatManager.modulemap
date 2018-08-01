@@ -1,0 +1,6 @@
+framework module XVIEWWeChatManager {
+  umbrella header "XVIEWWeChatManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
