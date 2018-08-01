@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XVIEWWeChatManager_Example' do
+  pod 'XVIEWWeChatManager', :path => '../'
+
+  target 'XVIEWWeChatManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
