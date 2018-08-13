@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWWeChatManager'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '微信分享以及登陆'
 
 # This description is used to generate tags and improve search results.

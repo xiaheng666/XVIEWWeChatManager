@@ -1,22 +1,27 @@
 {
   "name": "XVIEWWeChatManager",
-  "version": "0.1.0",
-  "summary": "A short description of XVIEWWeChatManager.",
+  "version": "0.1.1",
+  "summary": "微信分享以及登陆",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/maomao520benben/XVIEWWeChatManager",
+  "homepage": "https://github.com/xiaheng666/XVIEWWeChatManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "maomao520benben": "key@xiaheng.net"
+    "xiaheng666": "key@xiaheng.net"
   },
   "source": {
-    "git": "https://github.com/maomao520benben/XVIEWWeChatManager.git",
-    "tag": "0.1.0"
+    "git": "git@github.com:xiaheng666/XVIEWWeChatManager.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XVIEWWeChatManager/Classes/**/*"
+  "source_files": "XVIEWWeChatManager/Classes/**/*",
+  "dependencies": {
+    "WechatOpenSDK": [
+      "~>1.8.2"
+    ]
+  }
 }
