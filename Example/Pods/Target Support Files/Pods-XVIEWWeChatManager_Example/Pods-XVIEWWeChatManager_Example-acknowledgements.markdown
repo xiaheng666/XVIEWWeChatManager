@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## WechatOpenSDK
+
+Copyright 2018 tencent.com. All rights reserved.
+
+
 ## XVIEWWeChatManager
 
 Copyright (c) 2018 maomao520benben <key@xiaheng.net>

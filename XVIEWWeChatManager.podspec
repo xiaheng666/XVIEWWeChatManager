@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWWeChatManager'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '微信分享以及登陆'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XVIEWWeChatManager/Classes/**/*'
-  
+  s.source_files = 'XVIEWWeChatManager/Classes/*.h'
+
+  s.ios.vendored_libraries = 'XVIEWWeChatManager/Classes/*.a'
   # s.resource_bundles = {
   #   'XVIEWWeChatManager' => ['XVIEWWeChatManager/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
- s.dependency  'WechatOpenSDK','~>1.8.2'
+ s.dependency  'WechatOpenSDK','~>1.8.3'
 end

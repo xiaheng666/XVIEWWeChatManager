@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0CF5297085B89F30EE1DBB0C /* Pods_XVIEWWeChatManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWWeChatManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5856E9A59287C09C682E9090 /* XVIEWWeChatManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XVIEWWeChatManager.podspec; path = ../XVIEWWeChatManager.podspec; sourceTree = "<group>"; };
+		5856E9A59287C09C682E9090 /* XVIEWWeChatManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XVIEWWeChatManager.podspec; path = ../XVIEWWeChatManager.podspec; sourceTree = "<group>"; };
 		58E63A0AE8F629C7CBF5084F /* Pods-XVIEWWeChatManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWWeChatManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWWeChatManager_Tests/Pods-XVIEWWeChatManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XVIEWWeChatManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XVIEWWeChatManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A521C08FF027D36B5B4F4B6 /* Pods-XVIEWWeChatManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWWeChatManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWWeChatManager_Example/Pods-XVIEWWeChatManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D5FD468E3D05764CC58DD37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9D5FD468E3D05764CC58DD37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B79507D7158293E525CD8335 /* Pods_XVIEWWeChatManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWWeChatManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF06BBE2DA329697BECB787B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CF06BBE2DA329697BECB787B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				AB9D9C014B74B682E57F0FA6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = maomao520benben;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 24N474AU9T;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -310,24 +312,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AB9D9C014B74B682E57F0FA6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWWeChatManager_Example/Pods-XVIEWWeChatManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XVIEWWeChatManager/XVIEWWeChatManager.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XVIEWWeChatManager.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWWeChatManager_Example/Pods-XVIEWWeChatManager_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B69B87099F61883AE3017DE5 /* [CP] Check Pods Manifest.lock */ = {
@@ -485,6 +469,7 @@
 			baseConfigurationReference = 69642B0D3A7CE7644381B0C5 /* Pods-XVIEWWeChatManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24N474AU9T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWWeChatManager/XVIEWWeChatManager-Prefix.pch";
 				INFOPLIST_FILE = "XVIEWWeChatManager/XVIEWWeChatManager-Info.plist";
@@ -500,6 +485,7 @@
 			baseConfigurationReference = 8A521C08FF027D36B5B4F4B6 /* Pods-XVIEWWeChatManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24N474AU9T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWWeChatManager/XVIEWWeChatManager-Prefix.pch";
 				INFOPLIST_FILE = "XVIEWWeChatManager/XVIEWWeChatManager-Info.plist";
